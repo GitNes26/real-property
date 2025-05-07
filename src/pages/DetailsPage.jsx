@@ -1,6 +1,5 @@
 import React from "react";
 import {
-   Home,
    MapPin,
    Bed,
    Bath,
@@ -12,13 +11,11 @@ import {
    CheckCircle2,
    ArrowRight,
 } from "lucide-react";
-import ThemeChanger from "../components/ThemeChanger";
 import Header from "../layout/Header";
 import env from "../constants/env";
-import ScrollToTopButton from "../components/ScrollToTopButton";
 import Footer from "../layout/Footer";
 
-export default function App() {
+export default function DetailsPage() {
    return (
       <div className="flex flex-col min-h-screen">
          {/* Header */}
